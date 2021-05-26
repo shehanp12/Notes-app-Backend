@@ -16,7 +16,9 @@
     "aws-sdk": "^2.914.0",
     "serverless-bundle": "^4.3.1",
     "serverless-dotenv-plugin": "^2.1.1",
-    "serverless-offline": "^5.3.3"
+    "serverless-offline": "^5.3.3",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^4.2.4"
   },
   "dependencies": {
     "uuid": "^7.0.3"
