@@ -5,7 +5,7 @@ import dynamoDb from "./libs/dynamodb-lib";
 export const main = handler(async (event, context) => {
   const data = JSON.parse(event.body);
   const params = {
-    TableName: process.env.tableName,
+    TableName: 'notes',
     Item: {
       // The attributes of the item to be created
       userId: event.requestContext.identity.cognitoIdentityId, // The id of the author
