@@ -101,6 +101,7 @@ functions:
       - http:
           path: billing
           method: post
+          cors: true
           authorizer: aws_iam
 resources:
   # API Gateway Errors
